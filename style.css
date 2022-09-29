@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+.btn-modern:hover{
+background-color: aquamarine;
+color: rgb(8, 8, 8);
+box-shadow:5px 5px rgba(0, 0, 0, 0.5);
+transform: translateY(-5px);
+transition: 0.4s;
+cursor: pointer;
+}
